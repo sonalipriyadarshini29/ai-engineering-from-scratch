@@ -2,7 +2,7 @@ import os
 import json
 import urllib.request
 
-MODEL = os.environ.get("LLM_MODEL", "claude-sonnet-5")
+MODEL = os.environ.get("LLM_MODEL", "claude-sonnet-5-5")
 
 
 def call_with_sdk():
